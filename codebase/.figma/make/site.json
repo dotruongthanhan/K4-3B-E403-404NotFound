@@ -1,0 +1,10 @@
+{
+  "description": "Helps Lab Coaches and TAs efficiently track and manage unanswered student questions on Discord by summarizing, grouping, and prioritizing them daily.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
