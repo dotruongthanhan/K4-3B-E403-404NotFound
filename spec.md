@@ -91,9 +91,9 @@ Loại: [ ] Tối ưu tính năng có sẵn  [x] Tính năng mới
   - **Traceability:** mọi mục được đưa vào digest phải có tác giả, thời gian, kênh và permalink hợp lệ; không được bịa link hoặc nguồn.
   - **Triage:** P0 chỉ dùng khi có tín hiệu blocker/deadline; case thủ tục thông thường là P1. Hai người chấm độc lập phải đồng ý cùng nhãn hoặc ghi rõ lý do bất đồng.
   - **Formatting/reliability:** digest không vượt 2.000 ký tự mỗi Embed; khi vượt phải chia đúng thứ tự, không mất mục và trigger `/digest now` phải tạo được kết quả.
-- Golden set (≥20 case theo cơ cấu trong guide §2.6, file trong eval/): 
+- Golden set : codebase/eval/golden_set.json
 - Quality bar (chốt từ hạn chốt spec của khoá, giữ nguyên sau đó): **“Đạt khi ≥80% case trong golden set được phân loại đúng và không có case P0 nào mất permalink hợp lệ; mọi mục unresolved phải có lý do kiểm tra.”**
-- Kết quả các lượt chạy (bảng % — cập nhật đến trước CP6):
+- Kết quả các lượt chạy (bảng % — cập nhật đến trước CP6): 
 
   | Lượt | Số case | Coverage | Traceability | Triage | Formatting | Đạt quality bar? | Failure chính |
   |---|---:|---:|---:|---:|---:|---|---|
