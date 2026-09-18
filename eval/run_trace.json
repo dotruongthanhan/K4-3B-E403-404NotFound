@@ -1,0 +1,642 @@
+[
+  {
+    "id": "G01",
+    "timestamp": "2026-09-18T15:19:15.453Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Tôi nộp codelab trên Vlearn đúng giờ deadline 23:59 nhưng commit trên máy bị lỗi, sau thời gian đó mới đẩy lên thì có tính là nộp đúng hạn không?",
+      "reply": "[Auto-reply] Vui lòng tạo ticket tại #vlearn-support để được hỗ trợ. 🤖"
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P0",
+      "resolved_status": "false_resolution",
+      "reasoning": "Học viên hỏi về chính sách nộp bài, phản hồi auto-reply chưa giải quyết trực tiếp vấn đề."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "dFatat-wBvOd1e8Px73jsQc",
+      "usage": {
+        "promptTokenCount": 450,
+        "candidatesTokenCount": 64,
+        "totalTokenCount": 514,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 450
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G02",
+    "timestamp": "2026-09-18T15:19:16.921Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Vì buổi sáng học 13h mới tan mà chiều em có lịch bận, em có thể xin tan sớm vào buổi sáng không ạ?",
+      "reply": "bạn xin labcoach của buổi hôm đấy nha"
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P1",
+      "resolved_status": "false_resolution",
+      "reasoning": "Phản hồi chưa giải quyết trực tiếp, chỉ hướng dẫn học viên liên hệ người khác để xin phép."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "dVatapiSEKON1e8PiLqVqAM",
+      "usage": {
+        "promptTokenCount": 427,
+        "candidatesTokenCount": 62,
+        "totalTokenCount": 489,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 427
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G03",
+    "timestamp": "2026-09-18T15:19:18.240Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Ở level 2 em muốn theo hướng CV cho predictive maintenance thay vì chỉ detect vật thể trong cabin/tự hành được không ạ?",
+      "reply": "Task cũng đa dạng về data, cũng open cho innovative, cụ thể hẹn sáng mai nhé."
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P1",
+      "resolved_status": "false_resolution",
+      "reasoning": "Học viên xin đổi hướng bài tập, phản hồi hiện tại chưa giải quyết dứt điểm vấn đề."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "dlatavmOJP-R1e8Ppaad0AM",
+      "usage": {
+        "promptTokenCount": 433,
+        "candidatesTokenCount": 52,
+        "totalTokenCount": 485,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 433
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G04",
+    "timestamp": "2026-09-18T15:19:19.525Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Email cá nhân nhận lịch mã số 02, sau đó nhận thêm mã số 03. Còn email Outlook thì ngược lại, vậy mình nên học theo lịch nào?",
+      "reply": ""
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P1",
+      "resolved_status": "unresolved",
+      "reasoning": "Học viên cần xác nhận lịch học chính xác do sự không đồng nhất giữa hai email nhận được."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "d1ataq6eNbuj9tMPzdP3iAc",
+      "usage": {
+        "promptTokenCount": 429,
+        "candidatesTokenCount": 60,
+        "totalTokenCount": 489,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 429
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G05",
+    "timestamp": "2026-09-18T15:19:20.851Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Hạn nộp Lab02 là ngày nào vậy ạ, em thấy thông báo ghi không rõ.",
+      "reply": ""
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P1",
+      "resolved_status": "unresolved",
+      "reasoning": "Học viên hỏi về hạn nộp bài tập, cần làm rõ mốc thời gian để hoàn thành kịp tiến độ."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "eVatat2gDffa1e8P_dOauQk",
+      "usage": {
+        "promptTokenCount": 414,
+        "candidatesTokenCount": 44,
+        "totalTokenCount": 458,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 414
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G06",
+    "timestamp": "2026-09-18T15:19:22.459Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Có điểm danh ws không ạ",
+      "reply": ""
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P1",
+      "resolved_status": "unresolved",
+      "reasoning": "Học viên hỏi về quy trình điểm danh workshop, cần câu trả lời xác nhận từ BTC."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "elatavz5NNnBvr0PxvThiQg",
+      "usage": {
+        "promptTokenCount": 400,
+        "candidatesTokenCount": 59,
+        "totalTokenCount": 459,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 400
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G07",
+    "timestamp": "2026-09-18T15:19:23.790Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Em vẫn chưa biết LV2 có build và sẽ build cái gì để lập team cho hợp lý. Ngày đầu tiên nghe mấy anh giảng viên bảo LV2 chỉ học 3 tuần rồi thực chiến tại doanh nghiệp luôn.",
+      "reply": "Mình sẽ đi từng giai đoạn, trước tiên là lập team, sẽ có hướng dẫn và chia sẻ vào buổi workshop ngày mai nhé."
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P1",
+      "resolved_status": "false_resolution",
+      "reasoning": "Phản hồi chỉ hẹn sẽ chia sẻ vào buổi workshop ngày mai, chưa giải quyết trực tiếp thắc mắc của học viên về nội dung build."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "fFataqupDIyUvr0P-LHr0Q8",
+      "usage": {
+        "promptTokenCount": 457,
+        "candidatesTokenCount": 52,
+        "totalTokenCount": 509,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 457
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G08",
+    "timestamp": "2026-09-18T15:19:25.227Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Buổi workshop chủ nhật ngày mai có tính vào số buổi nghỉ không ạ? Giả dụ sáng mai em có việc thì sao ạ?",
+      "reply": "Build phase sẽ không tính vào hoạt động học trên lớp các buổi nghỉ đâu, nên tham gia buổi đầu tiên vì có thắc mắc gì có thể trao đổi luôn."
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P1",
+      "resolved_status": "resolved",
+      "reasoning": "Học viên hỏi về quy định điểm danh, TA đã giải đáp rõ ràng về việc không tính buổi nghỉ."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "fVatav7WJsGf1e8PjJPXoAM",
+      "usage": {
+        "promptTokenCount": 448,
+        "candidatesTokenCount": 51,
+        "totalTokenCount": 499,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 448
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G09",
+    "timestamp": "2026-09-18T15:19:26.555Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Ai có link Zoom buổi workshop tối nay không ạ, em tìm hoài không ra.",
+      "reply": ""
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P0",
+      "resolved_status": "unresolved",
+      "reasoning": "Học viên cần link để vào lớp học ngay, chưa có phản hồi."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "flatasadNoO-vr0P_Mm-2AM",
+      "usage": {
+        "promptTokenCount": 411,
+        "candidatesTokenCount": 58,
+        "totalTokenCount": 469,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 411
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G10",
+    "timestamp": "2026-09-18T15:19:27.829Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Thứ 3 tuần sau lecture sáng em có việc muốn xin vào trễ 30 phút, thì gửi mail cho ai ạ?",
+      "reply": "Vào trước 30p là được, bạn liên hệ labcoach hôm đó để điểm danh sau."
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P1",
+      "resolved_status": "resolved",
+      "reasoning": "Học viên hỏi về quy trình xin vào trễ và đã nhận được hướng dẫn cụ thể từ phản hồi."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "gFataozHDs-j9tMPgKeGoAM",
+      "usage": {
+        "promptTokenCount": 436,
+        "candidatesTokenCount": 61,
+        "totalTokenCount": 497,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 436
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G11",
+    "timestamp": "2026-09-18T15:19:29.201Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Mới có thông báo lập team trên Phoenix, cho em hỏi là LV2 có cần phải lập team không ạ?",
+      "reply": "Thông báo dành cho các bạn L2 đó."
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P1",
+      "resolved_status": "resolved",
+      "reasoning": "Học viên hỏi về việc lập team, phản hồi đã xác nhận thông tin cho LV2."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "gVatasnVI8aMvr0P5I3b-QI",
+      "usage": {
+        "promptTokenCount": 420,
+        "candidatesTokenCount": 58,
+        "totalTokenCount": 478,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 420
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G12",
+    "timestamp": "2026-09-18T15:19:30.526Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Em đang cần hỗ trợ về vấn đề giấy tờ gấp thì liên lạc đến bộ phận nào ạ?",
+      "reply": "Viết mail cho trường nhé,"
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P1",
+      "resolved_status": "false_resolution",
+      "reasoning": "Phản hồi chưa cung cấp địa chỉ email cụ thể hoặc quy trình rõ ràng cho học viên."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "glatauiJOae_vr0Pie78sAM",
+      "usage": {
+        "promptTokenCount": 413,
+        "candidatesTokenCount": 61,
+        "totalTokenCount": 474,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 413
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G13",
+    "timestamp": "2026-09-18T15:19:31.855Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Workshop bắt đầu chưa ạ? Em vào phòng chờ Zoom 15 phút rồi mà vẫn chưa được duyệt vào.",
+      "reply": ""
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P0",
+      "resolved_status": "unresolved",
+      "reasoning": "Học viên không vào được Zoom ảnh hưởng trực tiếp đến việc học tập khẩn cấp."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "hFatasaeELrO1e8PgPTkgA4",
+      "usage": {
+        "promptTokenCount": 416,
+        "candidatesTokenCount": 58,
+        "totalTokenCount": 474,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 416
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G14",
+    "timestamp": "2026-09-18T15:19:33.199Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Bọn em vẫn chưa vào được Phoenix thì lập nhóm như thế nào ạ?",
+      "reply": ""
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P0",
+      "resolved_status": "unresolved",
+      "reasoning": "Học viên chưa vào được nền tảng, ảnh hưởng trực tiếp đến việc học và làm bài nhóm."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "hVataujnH5_M1e8P9Y_fwAI",
+      "usage": {
+        "promptTokenCount": 409,
+        "candidatesTokenCount": 61,
+        "totalTokenCount": 470,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 409
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G15",
+    "timestamp": "2026-09-18T15:19:34.486Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Ngay sau docker compose up -d, OPA chưa lấy được policy bundle từ cvat-server nên health check báo lỗi 500.",
+      "reply": ""
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P1",
+      "resolved_status": "unresolved",
+      "reasoning": "Lỗi kỹ thuật khi triển khai Docker, cần hướng dẫn kiểm tra cấu hình hoặc đợi đồng bộ."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "hlatas7sNOmi9tMP44WC-AY",
+      "usage": {
+        "promptTokenCount": 424,
+        "candidatesTokenCount": 60,
+        "totalTokenCount": 484,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 424
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G16",
+    "timestamp": "2026-09-18T15:19:36.172Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Cho em hỏi Lab2 có được extend thời gian submit thêm không ạ? Em lỡ nộp muộn 1 phút không submit bài được ạ.",
+      "reply": ""
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P0",
+      "resolved_status": "unresolved",
+      "reasoning": "Học viên gặp vấn đề về thời hạn nộp bài Lab, cần hỗ trợ gấp vì ảnh hưởng trực tiếp."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "iFatav6qH6O6vr0PiajWgAQ",
+      "usage": {
+        "promptTokenCount": 424,
+        "candidatesTokenCount": 63,
+        "totalTokenCount": 487,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 424
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G17",
+    "timestamp": "2026-09-18T15:19:37.584Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Cho em hỏi việc clone hoặc fork code của nhóm khác trong bài lab có bị coi là gian lận không ạ?",
+      "reply": ""
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P1",
+      "resolved_status": "unresolved",
+      "reasoning": "Học viên hỏi về quy định đạo văn/gian lận trong bài tập lab, cần TA làm rõ."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "iVatarXIOt6M1e8PjcHKiQ8",
+      "usage": {
+        "promptTokenCount": 417,
+        "candidatesTokenCount": 62,
+        "totalTokenCount": 479,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 417
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "G18",
+    "timestamp": "2026-09-18T15:19:39.280Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Anh cho em hỏi Vlearn chưa up bài mới hả?",
+      "reply": "Cái này hỏi labcoach nhé."
+    },
+    "ai_output": {
+      "is_question": true,
+      "priority": "P1",
+      "resolved_status": "false_resolution",
+      "reasoning": "Câu hỏi về tiến độ bài giảng, phản hồi chưa giải quyết trực tiếp vấn đề mà chỉ hướng dẫn mơ hồ."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "i1atare-KYGN1e8PvsnesAM",
+      "usage": {
+        "promptTokenCount": 406,
+        "candidatesTokenCount": 64,
+        "totalTokenCount": 470,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 406
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "N01",
+    "timestamp": "2026-09-18T15:19:40.759Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "Không có câu hỏi thì lắng nghe các quy định và nội dung thôi. Đâu có bắt buộc hỏi 😅",
+      "reply": ""
+    },
+    "ai_output": {
+      "is_question": false,
+      "priority": "NONE",
+      "resolved_status": "resolved",
+      "reasoning": "Học viên chỉ đang trao đổi về quy định, không phải câu hỏi cần hỗ trợ."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "jVatavPnB57P1e8Px5zWuAM",
+      "usage": {
+        "promptTokenCount": 417,
+        "candidatesTokenCount": 46,
+        "totalTokenCount": 463,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 417
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  },
+  {
+    "id": "N02",
+    "timestamp": "2026-09-18T15:19:42.226Z",
+    "provider": "google",
+    "model": "gemini-3.1-flash-lite",
+    "input": {
+      "msg": "[Thông báo @everyone của BTC] Hoàn thiện các bước onboarding vào chương trình, hạn hoàn thành và ghép đội tự do đến 21:00 13/9.",
+      "reply": ""
+    },
+    "ai_output": {
+      "is_question": false,
+      "priority": "NONE",
+      "resolved_status": "resolved",
+      "reasoning": "Đây là tin nhắn thông báo từ BTC, không phải câu hỏi từ học viên."
+    },
+    "api_meta": {
+      "model": "gemini-3.1-flash-lite",
+      "id": "jlataqrlIsKN1e8PkqiloQM",
+      "usage": {
+        "promptTokenCount": 431,
+        "candidatesTokenCount": 54,
+        "totalTokenCount": 485,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 431
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    }
+  }
+]
