@@ -91,13 +91,18 @@ Loại: [ ] Tối ưu tính năng có sẵn  [x] Tính năng mới
   - **Traceability:** mọi mục được đưa vào digest phải có tác giả, thời gian, kênh và permalink hợp lệ; không được bịa link hoặc nguồn.
   - **Triage:** P0 chỉ dùng khi có tín hiệu blocker/deadline; case thủ tục thông thường là P1. Hai người chấm độc lập phải đồng ý cùng nhãn hoặc ghi rõ lý do bất đồng.
   - **Formatting/reliability:** digest không vượt 2.000 ký tự mỗi Embed; khi vượt phải chia đúng thứ tự, không mất mục và trigger `/digest now` phải tạo được kết quả.
-- Golden set : codebase/eval/golden_set.json
+- Golden set : eval/golden_set.json (kết quả chi tiết tại `eval/results.md`)
 - Quality bar (chốt từ hạn chốt spec của khoá, giữ nguyên sau đó): **“Đạt khi ≥80% case trong golden set được phân loại đúng và không có case P0 nào mất permalink hợp lệ; mọi mục unresolved phải có lý do kiểm tra.”**
 - Kết quả các lượt chạy (bảng % — cập nhật đến trước CP6): 
 
   | Lượt | Số case | Coverage | Traceability | Triage | Formatting | Đạt quality bar? | Failure chính |
   |---|---:|---:|---:|---:|---:|---|---|
-  | Chưa chạy | 20+ | Chưa đo | Chưa đo | Chưa đo | Chưa đo | Chưa kết luận | Cần tạo `eval/golden-set.md` và log kết quả |
+  | Run 1 (CP3) | 20 | 100% (20/20) | 100% (20/20) | 85% (17/20) | 100% (20/20) | **Đạt** (85% ≥ 80%) | 3 case sai triage P0/P1: G05 (hạn nộp Lab02 nhầm P1), G09 (xin link Zoom tối nhầm P0), G12 (hỗ trợ giấy tờ gấp nhầm P1) |
+
+  - **Ghi chú phân tích nguyên nhân case sai (Run 1):**
+    - **G05 (② Mơ hồ/thiếu tin):** Nhãn đúng `P0 · unresolved` nhưng AI trả về `P1 · unresolved`. AI coi việc hỏi hạn nộp bài là thắc mắc tiến độ thông thường thay vì blocker deadline.
+    - **G09 (② Mơ hồ/thiếu tin):** Nhãn đúng `P1 · unresolved` nhưng AI trả về `P0 · unresolved`. AI nhận định học viên cần link vào lớp học ngay tối nay là khẩn cấp nên đã nâng nhầm lên P0.
+    - **G12 (③ Ngoài phạm vi):** Nhãn đúng `P0 · false_resolution` nhưng AI trả về `P1 · false_resolution`. AI xem vấn đề giấy tờ là thủ tục hành chính (P1) thay vì sự việc gấp cần xử lý ngay (P0).
 
 ## §8. Phân công & kế hoạch
 - Phân công có tên: spec / evidence / prompt / code / demo
@@ -111,4 +116,6 @@ Loại: [ ] Tối ưu tính năng có sẵn  [x] Tính năng mới
 
 ## §9. Changelog
 | Thời điểm | Đổi gì | Vì sao (trỏ về feedback/case nào) |
+|---|---|---|
+| 18/09/2026 | Cập nhật kết quả kiểm thử Run 1 (CP3) vào §7 | Hoàn thành chạy Golden Set 20 case theo `eval/results.md`, đạt 85% accuracy (17/20) |
 
